@@ -1,0 +1,293 @@
+
+.content {
+	max-width: 990px;
+	margin: auto;
+}
+
+
+body {
+	background-color: black;
+	color: white;
+}
+
+#maintitle {
+	text-align: center;
+	color: fuchsia;
+	font-size: 60px;
+	animation-name: colorchange;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+.navbar {
+	font-size: 25px;
+	color: yellow;
+	text-align: left;
+}
+
+#navtitle {
+	position: relative;
+	left: 40px;
+}
+
+#navtitle:hover {
+	color: fuchsia;
+	text-shadow: 1px 2.5px 4px lime;
+}
+
+#sciencepic {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid hotpink;
+	border-radius: 65px;
+}
+
+a {
+	text-decoration: none;
+	color: red;
+}
+
+a:hover {
+	text-decoration: underline;
+	animation-name: colorchange;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+h2 {
+	text-align: center;
+}
+
+#physical_science {
+	text-align: center;
+}
+
+.dropwrapper {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 200px;
+	display: inline-block;
+}
+
+#dropdown, #dropdown2, #dropdown3 {
+	text-align: center;
+	background-color: black;
+    color: hotpink;
+    padding: 10px;
+	margin: 20px;
+    font-size: 16px;
+    border: solid;
+	border-radius: 15px;
+    border-color: purple;
+    cursor: pointer;
+}
+
+#dropdown:hover, #dropdown2:hover, #dropdown3:hover {
+	font-weight: bold;
+	animation-name: backgroundcolorchange;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;	
+}
+
+#dropcontent, #dropcontent2, #dropcontent3 {
+	text-align: left;
+	display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+	line-height: 25px;
+	font-size: 16px;
+    box-shadow: 0px 8px 16px 0px lime;
+}
+
+
+#physics {
+	text-align: center;
+}
+
+#phystitle {
+	font-size: 22px;
+	color: lime;
+	animation-name: colorchange;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+#physlinks {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	font-size: 20px;
+}
+
+#tablecompare {
+	text-decoration: underline;
+	text-align: center;
+	color: white;
+	animation-name: colorchange;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+#compsci {
+	text-align: center;
+}
+
+#tablewrap {
+	text-align: center;
+}
+
+#progtable {
+	border-collapse: collapse;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+th {
+	height: 40px;
+	background-color: blue;
+	color: white;
+	font-size: 30px;
+}
+th, td {
+	padding: 15px;
+	text-align: center;
+	border: 2px solid fuchsia;
+}
+td {
+	font-size: 24px;
+}
+tr {
+
+	background-color: purple;
+	color: lime;
+}
+tr:hover {
+	font-weight: bold;
+	color: black;
+	animation-name: backgroundcolorchange;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+p {
+	text-indent: 50px;
+	letter-spacing:1.5px;
+	line-height: 1.2;
+	font-size: 18px;
+}
+
+#aitrio {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid purple;
+  box-shadow: 0px 3px 8px 3.5px lime;
+}
+
+#wikiwrap {
+	text-align: center;
+}
+
+#wikiheading {
+	text-decoration: underline;
+	font-size: 20px;
+	color: purple;
+}
+
+#aiwikilinks {
+	text-align: left;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ol {
+	font-size: 20px;
+}
+
+#socialmedia {
+	text-align: center;
+}
+
+.fa {
+  display: inline-block;
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 30px;
+  border-radius: 40px;
+  box-shadow: 0px 3px 8px 3.5px lime;
+}
+
+.fa-facebook {
+	background-color: blue;
+	color: white;
+}
+.fa-facebook:hover {
+	background-color: fuchsia;
+}
+
+.fa-instagram {
+	background-color: fuchsia;
+	color: white;
+}
+
+.fa-instagram:hover {
+	background-color: blue;
+}
+
+
+.buttons {
+	border-color: red orange green blue;
+	border-style: solid;
+	border-width: 2.5px;
+	border-radius: 8px;
+	background-color: black;
+	color: lime;
+	font-size: 18px;
+	text-align: center;
+	display: block;
+	padding: 22px 16px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+@keyframes colorchange {
+	0% {color:fuchsia;}
+	10% {color:aqua;}
+	20% {color:red;}
+	30% {color:orange;}
+	40% {color:yellow;}
+	50% {color:blue;}
+	60% {color:lime;}
+	70% {color:hotpink;}
+	80% {color:red;}
+	90% {color:purple;}
+	100% {color:yellow;}
+}
+
+@keyframes backgroundcolorchange {
+	0% {background-color:fuchsia;}
+	10% {background-color:aqua;}
+	20% {background-color:red;}
+	30% {background-color:orange;}
+	40% {background-color:yellow;}
+	50% {background-color:blue;}
+	60% {background-color:lime;}
+	70% {background-color:hotpink;}
+	80% {background-color:red;}
+	90% {background-color:purple;}
+	100% {background-color:yellow;}
+}

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Test Website</title>
+	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+	<script>
+	  $(function() {
+        $("#dropdown").click(function() {
+          $("#dropcontent").toggle(1200);
+    });
+});
+	  $(function() {
+        $("#dropdown2").click(function() {
+          $("#dropcontent2").toggle(1200);
+    });
+});
+	  $(function() {
+        $("#dropdown3").click(function() {
+          $("#dropcontent3").toggle(1200);
+    });
+});
+	</script>
+	<link href="sci_style.css" type="text/css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  
+  <body>
+  <hr>
+  <div class="content">
+  
+    <h1 id="maintitle">Potestas Magnum Universum</h1>
+  
+    <br>
+	<hr>
+	<br>
+    <nav class="navbar">
+	  <h3 id="navtitle"><strong>Site Navigation</strong><h3>
+      <ul>
+	    <li><a href="#physical_science">Physical Sciences</a></li>
+	    <li><a href="#compsci">Computer Science</a></li>
+		<li><a href="#datascience">Data Science and AI</a></li>
+	    <li><a href="#technews">News in Tech</a></li>
+	    <li><a href="#contact">Contact Us</a></li>
+	  </ul>
+    </nav>
+	
+	<br>
+	<img src="sciencepic.jpg" alt="various sciences" style="width:50%" id="sciencepic">
+	
+	<br>
+	<hr>
+	
+	<br>
+    <div id="physical_science">
+	  <h2>Physical Sciences</h2>
+	  <p>This will be general information on physical sciences, such as physics, chemistry, biology, etc.</p>
+	  <br><br>
+	  <div class="dropwrapper">
+	    <section id="dropdown">
+	      <span><h3>Fun Physics Facts</h3></span>
+	      <ul id="dropcontent">
+		    <li>If you traveled at the speed of light, time would stop.</li>
+		    <li>A planet's orbit is actually a straight line, space itself<br>is curved by gravity.</li>
+		    <li>Neutron stars are so dense that a teaspoon of their material<br>would weigh more than the entire population of Earth.</li>
+		    <li>In a vacuum all objects will fall at the same speed, no matter<br>their weights.</li>
+		  </ul>
+	    </section>
+	  </div>
+	  
+	  <div class="dropwrapper">
+	    <section id="dropdown2">
+	      <span><h3>Fun Chemistry Facts</h3></span>
+	      <ul id="dropcontent2">
+		    <li>Iron Oxide (rust) gives Mars it's red color.</li>
+		    <li>DNA is flame retardant.</li>
+		    <li>Warm water can freeze faster than cold.</li>
+		    <li>Glass is technically not a solid, it flows like<br>liquid, only very slowly.</li>
+		  </ul>
+	    </section>
+	  </div>
+	  
+	  <div class="dropwrapper">
+	    <section id="dropdown3">
+	      <span><h3>Fun Biology Facts</h3></span>
+	      <ul id="dropcontent3">
+		    <li>Babies have more bones than adults.</li>
+		    <li>The body's response to tickling is actually panic.</li>
+		    <li>More organisms live on the skin of one human than there<br>are humans living on Earth.</li>
+		    <li>The average human gut contains 100 trillion bacteria.</li>
+		  </ul>
+	    </section>
+	  </div>
+	  <br><br><br><br><br><br>
+	  
+	  <section id="physics">
+	    <h3 id="phystitle">Explore more about the wide world of Physics</h3>
+		<ul id="physlinks">
+		  <li><a href="https://physicsworld.com/" target="_blank">Physics World</a></li>
+		  <li><a href="https://www.khanacademy.org/science/physics" target="_blank">Learn Basic Physics</a></li>
+		  <li><a href="https://science.nasa.gov/astrophysics" target="_blank">NASA Astrophysics</a></li>
+		  <li><a href="https://www.edx.org/learn/quantum-physics-mechanics" target="_blank">Free Quantum Physics Courses</a></li>
+		</ul>
+	  </section>
+	</div>
+	
+	<br><hr><br>
+	
+	<div id="compsci">
+	  <h2>Computer Science</h2>
+	  <br>
+	  
+	  <p>This area will contain information on computer science and programming</p>
+	  <br>
+	  
+	  <h2 id="tablecompare">Top Programming Language Comparisons</h2>
+	  <div id="tablewrap" style="overflow-x:auto">
+	    <table id="progtable">
+	  
+	      <thead>
+		    <tr>
+		      <th scope="col">Language</th>
+			  <th scope="col">Attribute</th>
+			  <th scope="col">Attribute</th>
+			  <th scope="col">Attribute</th>
+			  <th scope="col">Used by</th>
+		    </tr>
+		  </thead>
+		
+		  <tbody>
+		    <tr>
+		      <td><strong>Python</strong></td>
+			  <td>yes/no</td>
+			  <td>yes/no</td>
+			  <td>yes/no</td>
+			  <td>39.4%</td>
+		    </tr>
+		  
+		    <tr>
+		      <td><strong>C++</strong></td>
+			  <td>yes/no</td>
+			  <td>yes/no</td>
+			  <td>yes/no</td>
+			  <td>20.4%</td>
+		    </tr>
+		  
+		    <tr>
+		      <td><strong>Java</strong></td>
+			  <td>yes/no</td>
+			  <td>yes/no</td>
+			  <td>yes/no</td>
+			  <td>39.2%</td>
+		    </tr>
+		  
+		    <tr>
+		      <td><strong>SQL</strong></td>
+			  <td>yes/no</td>
+			  <td>yes/no</td>
+			  <td>yes/no</td>
+			  <td>56.5%</td>
+		    </tr>
+		  
+		    <tr>
+		      <td><strong>PHP</strong></td>
+			  <td>yes/no</td>
+			  <td>yes/no</td>
+			  <td>yes/no</td>
+			  <td>25.8%</td>
+		    </tr>
+		  </tbody>
+		
+		  <tfoot>
+		    <tr>
+		      <td colspan="5"><span>Languages in <strong>no</strong> particular order</span></td>
+		    </tr>
+			<tr>
+			  <td colspan="5"><span>statistics from <a href="https://insights.stackoverflow.com/survey/2019" target="_blank">Stack Overflow</a>, for professional developers of 2019</span></td>
+			</tr>
+		  </tfoot>
+	    </table>
+	  </div>
+	  
+	</div>
+	
+	<br><hr><br>
+	
+	<div id="datascience">
+	  <h2>Data Science and Artificial Intelligence</h2>
+
+	  <p>Data Science and Artificial Intelligence are two closely related sub-fields of Computer Science
+	  that have received alot of attention in recent years. Without <a href="https://www.datarobot.com/wiki/data-science/" target="_blank">Data Science,</a> the massive 
+	  amounts of information available to us today to drive decision making would be inaccessible.
+	  In the same context, without the innovation of Machine Learning and other AI algorithms, these 
+	  masses of data would be useless. Humans simply cannot process, decipher, and sort that amount of
+	  data quickly or efficiently enough to be feasible without the help of efficient computer programs.
+	  From Self-driving cars and face-recognizing home-security cameras, to more efficient Google searches 
+	  and personalized web-browsing, you most likely interact with some form of artificial intelligence
+	  every day without even being aware of it.</p>
+	  
+	  <br>
+	  
+	  <img src="AItrio.png" alt="AI over time" style="width:50%" id="aitrio">
+	  
+	  <br>
+	  <div id="wikiwrap">
+	    <section id="aiwikilinks">
+	      <h4 id="wikiheading"><strong>Wikipedia pages for various areas of AI research</strong></h4>
+	      <ol>
+		    <li><a href="https://en.wikipedia.org/wiki/Machine_learning" target="_blank">Machine Learning</a></li>
+		    <li><a href="https://en.wikipedia.org/wiki/Deep_learning" target="_blank">Deep Learning</a></li>
+		    <li><a href="https://en.wikipedia.org/wiki/Facial_recognition_system" target="_blank">Voice/Facial Recognition</a></li>
+		    <li><a href="https://en.wikipedia.org/wiki/Object_detection" target="_blank">Object Detection</a></li>
+		    <li><a href="https://en.wikipedia.org/wiki/Sentiment_analysis" target="_blank">Sentiment Analysis</a></li>
+		    <li><a href="https://en.wikipedia.org/wiki/Artificial_general_intelligence" target="_blank">AGI (<em>Artificial General Intelligence</em>)</a></li>
+	      </ol>
+	    </section>
+	  </div>
+	  <br><br>
+	  
+	  
+	</div>
+	
+	<br><hr><br>
+	
+	<div id="technews">
+	  <h2>Technology News</h2>
+	  <br>
+	  <p>This area will contain news on current technology and potential near future technologies</p>
+	</div>
+	
+	<br><hr><br>
+	
+	<div id="contact">
+	  <h2>Contact Us</h2>
+	  <br>
+	  <p>This will be contact info. Address, phone, email, etc.</p>
+	  <br><br><br>
+	  <section id="socialmedia">
+	    <a href="https://www.facebook.com/toddy.lane" class="fa fa-facebook" target="_blank"></a>
+		<a href="https://www.instagram.com/toddylane/" class="fa fa-instagram" target="_blank"></a>
+	  </section>
+	</div>
+	<hr><br>
+	<button class="buttons"><a href="#maintitle"><strong>Back to top</strong></a></button>
+  </div>
+  <hr>
+  </body>
+  
+</html>
