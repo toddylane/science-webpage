@@ -178,15 +178,15 @@ tr:hover {
 	animation-timing-function: linear;
 }
 
+#datascience {
+	text-align: center;
+}
+
 p {
 	text-indent: 50px;
 	letter-spacing:1.5px;
 	line-height: 1.2;
 	font-size: 18px;
-}
-
-#datascience {
-	text-align: center;
 }
 
 #aitrio {
