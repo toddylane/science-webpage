@@ -59,6 +59,7 @@ a:hover {
 
 h2 {
 	text-align: center;
+	text-decoration: underline;
 }
 
 .physical_science {
@@ -75,14 +76,14 @@ h2 {
 #dropdown, #dropdown2, #dropdown3 {
 	text-align: center;
 	background-color: black;
-    color: hotpink;
-    padding: 10px;
+        color: hotpink;
+        padding: 10px;
 	margin: 20px;
-    font-size: 16px;
-    border: solid;
+        font-size: 16px;
+        border: solid;
 	border-radius: 15px;
-    border-color: purple;
-    cursor: pointer;
+        border-color: purple;
+        cursor: pointer;
 }
 
 #dropdown:hover, #dropdown2:hover, #dropdown3:hover {
@@ -96,12 +97,12 @@ h2 {
 #dropcontent, #dropcontent2, #dropcontent3 {
 	text-align: left;
 	display: none;
-    position: absolute;
-    background-color: black;
-    min-width: 160px;
+        position: absolute;
+        background-color: black;
+        min-width: 160px;
 	line-height: 25px;
 	font-size: 16px;
-    box-shadow: 0px 8px 16px 0px lime;
+        box-shadow: 0px 8px 16px 0px lime;
 }
 
 .phystitle {
@@ -185,11 +186,11 @@ p {
 }
 
 #aitrio {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border: 3px solid purple;
-  box-shadow: 0px 3px 8px 3.5px lime;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border: 3px solid purple;
+        box-shadow: 0px 3px 8px 3.5px lime;
 }
 
 #wikiwrap {
@@ -213,20 +214,28 @@ ol {
 	font-size: 20px;
 }
 
+#contact-list {
+	text-align: left;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+}
+
 #socialmedia {
 	text-align: center;
 }
 
 .fa {
-  display: inline-block;
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 30px;
-  border-radius: 40px;
-  box-shadow: 0px 3px 8px 3.5px lime;
+        display: inline-block;
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 30px;
+        border-radius: 40px;
+        box-shadow: 0px 3px 8px 3.5px lime;
 }
 
 .fa-facebook {
