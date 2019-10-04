@@ -214,6 +214,10 @@ ol {
 	font-size: 20px;
 }
 
+#contact {
+	text-align: center;
+}
+
 #contact-list {
 	text-align: left;
 	display: inline-block;
