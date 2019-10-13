@@ -214,6 +214,23 @@ ol {
 	font-size: 20px;
 }
 
+#nyc_transfer {
+	text-align: center;
+}
+
+#cat_transfer {
+	text-align: center;
+}
+
+.before_and_after {
+	margin-left: 10px;
+	margin-right: 10px;
+	max-width: 25%;
+	max-height: 25%;
+	display: inline-block;
+	border: 1px solid white;
+}
+
 #contact {
 	text-align: center;
 }
